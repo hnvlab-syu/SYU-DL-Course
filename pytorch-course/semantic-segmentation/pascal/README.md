@@ -10,7 +10,6 @@ conda env create -f environment.yaml
 ```
 
 ## 다운로드
-- 접속 권한 확인 후 HnVLab Synology 접속 [Here](https://hnvlab.synology.me:5001/)
 - VOCtrainval_11-May-2012.tar 파일을 다운로드
 - 현재경로의 dataset 폴더에 압축해제 및 중간 디렉토리 제거
 - 다음과 같은 형식이 되어야 함
@@ -48,9 +47,8 @@ conda env create -f environment.yaml
 ```
 
 # 진행 방식
-같은 분류 작업을 세 가지 방식으로 구현함
+같은 분류 작업을 두 가지 방식으로 구현함
 1. PyTorch
 2. PyTorch Lightning
-3. Lightning-Hydra-Template
 
 자세한 내용은 각 디렉토리 내에 있는 README 파일에서 확인
